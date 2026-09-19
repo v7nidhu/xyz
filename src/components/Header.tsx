@@ -23,7 +23,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex flex-col sm:flex-row sm:items-center justify-between py-3.5 gap-3">
           {/* Logo & Pitch */}
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-mono font-bold text-lg shadow-sm">
+            <div className="w-9 h-9 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-pink-400 font-mono font-bold text-lg shadow-sm">
               FT
             </div>
             <div>
@@ -49,7 +49,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <span className="text-[#324050]">|</span>
             <div className="flex items-center gap-1.5">
-              <span className="text-amber-400 font-medium">Service Overprep:</span>
+              <span className="text-pink-400 font-medium">Service Overprep:</span>
               <span className="text-white font-semibold">{report.stages.SERVICE.percentage}%</span>
             </div>
             <span className="text-[#324050]">|</span>
@@ -74,7 +74,7 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               id="open-waste-capture-btn"
               onClick={onOpenCapture}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-md text-xs font-mono font-semibold text-black bg-amber-400 hover:bg-amber-300 active:scale-[0.98] transition-all shadow-md shadow-amber-950/40"
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-md text-xs font-mono font-semibold text-black bg-pink-400 hover:bg-pink-300 active:scale-[0.98] transition-all shadow-md shadow-pink-950/40"
             >
               <Plus className="w-4 h-4 text-black stroke-[2.5]" />
               Log Waste Event
@@ -89,7 +89,7 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => setActiveTab("dossier")}
             className={`px-3.5 py-1.5 rounded-md transition-colors flex items-center gap-2 ${
               activeTab === "dossier"
-                ? "bg-amber-500/15 text-amber-300 border border-amber-500/30 font-semibold"
+                ? "bg-pink-500/15 text-pink-300 border border-pink-500/30 font-semibold"
                 : "text-[#8b9ba8] hover:text-[#d3dde6] hover:bg-[#151c24]"
             }`}
           >
@@ -102,7 +102,7 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => setActiveTab("timeline")}
             className={`px-3.5 py-1.5 rounded-md transition-colors flex items-center gap-2 ${
               activeTab === "timeline"
-                ? "bg-amber-500/15 text-amber-300 border border-amber-500/30 font-semibold"
+                ? "bg-pink-500/15 text-pink-300 border border-pink-500/30 font-semibold"
                 : "text-[#8b9ba8] hover:text-[#d3dde6] hover:bg-[#151c24]"
             }`}
           >
@@ -117,7 +117,7 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => setActiveTab("fingerprint")}
             className={`px-3.5 py-1.5 rounded-md transition-colors flex items-center gap-2 ${
               activeTab === "fingerprint"
-                ? "bg-amber-500/15 text-amber-300 border border-amber-500/30 font-semibold"
+                ? "bg-pink-500/15 text-pink-300 border border-pink-500/30 font-semibold"
                 : "text-[#8b9ba8] hover:text-[#d3dde6] hover:bg-[#151c24]"
             }`}
           >

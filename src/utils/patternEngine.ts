@@ -243,7 +243,7 @@ export function analyzeWastePatterns(events: WasteEvent[]): PatternReport {
       percentage: Math.round((stageWeights.PREP.total / safeTotal) * 100),
       avoidableKg: Number(stageWeights.PREP.avoidable.toFixed(1)),
       eventCount: stageWeights.PREP.count,
-      color: "#f59e0b", // amber
+      color: "#ec4899", // pink
     },
     SERVICE: {
       stage: "SERVICE",
