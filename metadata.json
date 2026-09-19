@@ -1,0 +1,6 @@
+{
+  "name": "FoodTrace",
+  "description": "Forensic food waste intelligence identifying stage, cause, and operational patterns to eliminate commercial kitchen waste.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
